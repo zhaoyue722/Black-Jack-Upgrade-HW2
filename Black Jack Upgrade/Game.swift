@@ -10,7 +10,8 @@ import Foundation
 
 class Game {
     var decks: [Deck]=[]
-    var players: [Player] = []
+    var player1: Player = Player()
+    var player2: Player = Player()
     var dealer: Dealer = Dealer()
     var currentPlayer = 0
     var currentDeck = 0
@@ -25,22 +26,19 @@ class Game {
         tempDeck.createDeck()
         decks.append(tempDeck)
         
-        for i in 0..<playerNumber {
-            addPlayer()
+        for i in 0..<2 {
+            player1.addCard(catchCard(currentDeck)!)
+            
         }
-        
-        for j in 0..<players.count {
-           for i in 0..<2 {players[j].addCard(catchCard(currentDeck)!)}
-           dealer.addCard(catchCard(currentDeck)!)
-           dealer.addCard(catchCard(currentDeck)!)
-           dealer.hiddenCard = dealer.cards[0]
+        for j in 0..<2 {
+            player2.addCard(catchCard(currentDeck)!)
         }
+        dealer.addCard(catchCard(currentDeck)!)
+        dealer.addCard(catchCard(currentDeck)!)
+        dealer.hiddenCard = dealer.cards[0]
     }
     
-    func addPlayer() {
-        var newPlayer: Player = Player()
-        players.append(newPlayer)
-    }
+
     
     
     
@@ -64,24 +62,27 @@ class Game {
         
     }
     
-    func hit (playerm: Int) {
+    func hit1 (playerm: Int) {
         var card = catchCard(currentDeck)
-        players[playerm].addCard(card!)
+        player1.addCard(card!)
     }
     
-    func stand (playerm: Int) {
-        if (players[playerm].stand == false) {
-            players[playerm].setStand = true
-            currentPlayer += 1
-            if (currentPlayer > 0) {currentPlayer = 0}
-        }
-        else {
-            currentPlayer += 1
-            if (currentPlayer > 0) {currentPlayer = 0}
-            
+    func hit2 (playerm: Int) {
+        var card = catchCard(currentDeck)
+        player2.addCard(card!)
+    }
+    
+    func stand1 (playerm: Int) {
+        if (player1.stand == false) {
+            player1.setStand = true
         }
     }
     
+    func stand2 (playerm: Int) {
+        if (player2.stand == false) {
+            player2.setStand = true
+        }
+    }
     
     
 }

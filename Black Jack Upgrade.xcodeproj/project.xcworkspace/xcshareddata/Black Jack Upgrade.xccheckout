@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>069B73C2-2074-44C6-A4C9-08DD07A3A951</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Black Jack Upgrade</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DADA6E6EA4FB972351BB1DC3565D6041EC0A74F1</key>
+		<string>https://github.com/zhaoyue722/Black-Jack-Upgrade-HW2.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Black Jack Upgrade.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DADA6E6EA4FB972351BB1DC3565D6041EC0A74F1</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zhaoyue722/Black-Jack-Upgrade-HW2.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DADA6E6EA4FB972351BB1DC3565D6041EC0A74F1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DADA6E6EA4FB972351BB1DC3565D6041EC0A74F1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Black-Jack-Upgrade-HW2</string>
+		</dict>
+	</array>
+</dict>
+</plist>

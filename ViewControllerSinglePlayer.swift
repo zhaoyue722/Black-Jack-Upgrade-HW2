@@ -63,18 +63,18 @@ class ViewControllerSinglePlayer: UIViewController {
     }
     
     @IBAction func standButton(sender: UIButton) {
-        blackjack.stand(0)
+        blackjack.stand1(0)
         getPlayerStats()
     }
     
     @IBAction func hitButton(sender: UIButton) {
-        blackjack.hit(blackjack.currentPlayer)
-        var current:Int = blackjack.players[0].checkSum().intSum
+        blackjack.hit1(blackjack.currentPlayer)
+        var current:Int = blackjack.player1.checkSum().intSum
         if (current > 21) {
-            for x in 0..<blackjack.players[0].cards.count {
+            for x in 0..<blackjack.player1.cards.count {
                 playerLabels[x].text = nil
             }
-            blackjack.stand(blackjack.currentPlayer)
+            blackjack.stand1(blackjack.currentPlayer)
         }
         getPlayerStats()
 
@@ -84,19 +84,19 @@ class ViewControllerSinglePlayer: UIViewController {
         retryButton.hidden = true
         hitButton.hidden = false
         standButton.hidden = false
-        blackjack.players[0].stand = false
+        blackjack.player1.stand = false
         //dealerLabels[0].hidden = true
         //dealerLabels.removeAll(keepCapacity: false)
         for i in 0..<2 {dealerLabels[i].text = " "}
         for i in 0..<5 {playerLabels[i].text = " "}
         
-        blackjack.players[0].cards.removeAll(keepCapacity: false)
+        blackjack.player1.cards.removeAll(keepCapacity: false)
         blackjack.dealer.cards.removeAll(keepCapacity: false)
         
         //viewDidLoad()
         
         
-        for k in 0..<2{blackjack.players[0].addCard(blackjack.catchCard(blackjack.currentDeck)!)}
+        for k in 0..<2{blackjack.player1.addCard(blackjack.catchCard(blackjack.currentDeck)!)}
         blackjack.dealer.addCard(blackjack.catchCard(blackjack.currentDeck)!)
         blackjack.dealer.addCard(blackjack.catchCard(blackjack.currentDeck)!)
         
@@ -109,7 +109,7 @@ class ViewControllerSinglePlayer: UIViewController {
         var alreadystand = 0
         reload()
         dealersum.text = blackjack.dealer.checkSum("hidden").strSum    //
-        if (blackjack.players[0].stand == true) {
+        if (blackjack.player1.stand == true) {
             alreadystand += 1
         }
         
@@ -122,7 +122,7 @@ class ViewControllerSinglePlayer: UIViewController {
             }
             
             dealersum.text = blackjack.dealer.checkSum().strSum
-            playersum.text = showScore(blackjack.players[0].checkSum().intSum, dealerScore: blackjack.dealer.checkSum().intSum)
+            playersum.text = showScore(blackjack.player1.checkSum().intSum, dealerScore: blackjack.dealer.checkSum().intSum)
             retryButton.hidden = false
         }
         chipBalance.text = "\(cntchip)"
@@ -171,16 +171,16 @@ class ViewControllerSinglePlayer: UIViewController {
     }
     
     func reload() {
-        for i in 0..<1 {
-        for x in 0..<blackjack.players[i].cards.count {
-            playerLabels[x].text = blackjack.players[i].cards[x].cd
-            playersum.text = blackjack.players[i].checkSum().strSum
+       
+        for x in 0..<blackjack.player1.cards.count {
+            playerLabels[x].text = blackjack.player1.cards[x].cd
+            playersum.text = blackjack.player1.checkSum().strSum
             
         }
         for y in 0..<blackjack.dealer.cards.count {
             dealerLabels[y].text = blackjack.dealer.cards[y].cd
         }
-        }
+        
     }
 
     

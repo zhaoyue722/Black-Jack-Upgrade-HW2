@@ -17,7 +17,7 @@ class Dealer : Player{
     
     //the card that the dealer show up
     func cardShow() -> Card? {
-        cards[0].cd = hiddenCard?.cd! // the syntax??
+        cards[0].cd = hiddenCard?.cd!
         return cards[0]
     }
     
