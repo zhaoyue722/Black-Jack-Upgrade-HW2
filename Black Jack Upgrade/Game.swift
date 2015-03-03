@@ -9,22 +9,18 @@
 import Foundation
 
 class Game {
-    var decks: [Deck]=[]
+    var shoe: Shoe
     var player1: Player = Player()
     var player2: Player = Player()
     var dealer: Dealer = Dealer()
     var currentPlayer = 0
     var currentDeck = 0
-    var deckSize: Int
    
     
     
     init (deckSize: Int, playerNumber: Int) {
         
-        self.deckSize = deckSize
-        var tempDeck = Deck ()
-        tempDeck.createDeck()
-        decks.append(tempDeck)
+        shoe = Shoe(numDeck: deckSize)
         
         for i in 0..<2 {
             player1.addCard(catchCard(currentDeck)!)
@@ -38,27 +34,9 @@ class Game {
         dealer.hiddenCard = dealer.cards[0]
     }
     
-
-    
-    
-    
-    //clean deck to restart the game
-    func cleanDeck() {
-        decks.removeAll(keepCapacity: false)
-    }
-    
-    func displayDeck() {
-        for n in 0..<decks.count {
-            for m in 0..<decks[n].cards.count {
-                NSLog("\(decks[n].cards[m].description)")
-                
-            }
-        }
-    }
-    
     func catchCard(cardm: Int) ->Card? {
-        //if (size.decks[currentDeck].cards.count <= 10) {currentDeck += 1}
-        return decks[cardm].getCard()
+        if (shoe.decks[currentDeck].cards.count <= 10) {currentDeck += 1}
+        return shoe.decks[cardm].getCard()!
         
     }
     

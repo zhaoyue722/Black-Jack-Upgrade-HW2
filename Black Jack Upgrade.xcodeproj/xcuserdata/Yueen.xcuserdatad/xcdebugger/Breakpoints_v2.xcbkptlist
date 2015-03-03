@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Black Jack Upgrade/Game.swift"
-            timestampString = "447019908.051465"
+            timestampString = "447034879.30385"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "init(deckSize:playerNumber:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Black Jack Upgrade/ViewControllerMultiplePlayers.swift"
-            timestampString = "447030875.418656"
+            timestampString = "447038316.270049"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "259"
-            endingLineNumber = "259"
+            startingLineNumber = "287"
+            endingLineNumber = "287"
             landmarkName = "getPlayer2Stats()"
             landmarkType = "5">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Black Jack Upgrade/ViewControllerMultiplePlayers.swift"
-            timestampString = "447032827.646952"
+            timestampString = "447038316.270049"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "287"
-            endingLineNumber = "287"
+            startingLineNumber = "325"
+            endingLineNumber = "325"
             landmarkName = "showScore1(_:dealerScore:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Black Jack Upgrade/ViewControllerMultiplePlayers.swift"
-            timestampString = "447032827.646952"
+            timestampString = "447038316.270049"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "276"
-            endingLineNumber = "276"
+            startingLineNumber = "314"
+            endingLineNumber = "314"
             landmarkName = "getPlayer2Stats()"
             landmarkType = "5">
          </BreakpointContent>

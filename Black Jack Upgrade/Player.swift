@@ -14,6 +14,7 @@ class Player {
     var chipAmount = 100
     var bet = 0
     var stand:Bool = false
+    var isOut = false
     
     /*init (name: String) {
     self.playerName = "Player"  //??

@@ -52,7 +52,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="3sU-Ns-rLY" kind="modal" identifier="toMultiple" id="MPP-ee-JIw"/>
+                                    <action selector="slgPlayer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fML-l5-q1F"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iFy-Pu-ov8">
@@ -63,7 +63,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="nby-cA-q9e" kind="modal" id="pwp-qj-4Cq"/>
+                                    <action selector="mulPlayer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nSs-WF-Mnz"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BLACK JACK" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NPk-RL-E4x">
@@ -95,6 +95,8 @@
                         <outlet property="oneDeck" destination="20f-Ul-rFR" id="AJL-b2-iy9"/>
                         <outlet property="threeDeck" destination="fhv-1g-Eql" id="RLZ-Up-kxb"/>
                         <outlet property="twoDeck" destination="RTg-sU-eHE" id="aZE-xp-SEH"/>
+                        <segue destination="nby-cA-q9e" kind="modal" identifier="toMultiple" id="H3S-zE-02k"/>
+                        <segue destination="3sU-Ns-rLY" kind="modal" identifier="toSingle" id="xGt-hv-nge"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -258,17 +260,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AMd-Re-MHG">
-                                <rect key="frame" x="314" y="36" width="81" height="30"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
-                                <state key="normal" title="🚧 STAND">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="standButton:" destination="3sU-Ns-rLY" eventType="touchUpInside" id="1RI-Hj-W3K"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d4X-0m-yWC">
                                 <rect key="frame" x="421" y="36" width="60" height="30"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
@@ -337,6 +328,17 @@
                                     <action selector="Bet:" destination="3sU-Ns-rLY" eventType="touchUpInside" id="H7F-A0-DlC"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AMd-Re-MHG">
+                                <rect key="frame" x="314" y="36" width="81" height="30"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
+                                <state key="normal" title="🚧 STAND">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="standButton:" destination="3sU-Ns-rLY" eventType="touchUpInside" id="1RI-Hj-W3K"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.093105751050000005" green="0.38441179800000003" blue="0.2496412858" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -364,7 +366,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z2Q-xo-YDn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="196" y="732"/>
+            <point key="canvasLocation" x="472" y="794"/>
         </scene>
         <!--View Controller Multiple Players-->
         <scene sceneID="nPh-Wu-Ibi">
@@ -629,7 +631,7 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BLACK JACK" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xEJ-wa-PKo">
                                 <rect key="frame" x="33" y="23" width="296" height="59"/>
-                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="33"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -650,6 +652,18 @@
                                 <rect key="frame" x="39" y="75" width="73" height="21"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="17"/>
                                 <color key="textColor" red="0.72790576750000002" green="0.83840215770000004" blue="0.38247943979999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Out!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GEY-FD-tLO">
+                                <rect key="frame" x="474" y="164" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN-Bold" family="Oriya Sangam MN" pointSize="17"/>
+                                <color key="textColor" red="0.97390013966480449" green="0.20290520734547091" blue="0.15911710193604856" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Out!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rDh-Pr-pOK">
+                                <rect key="frame" x="474" y="279" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN-Bold" family="Oriya Sangam MN" pointSize="17"/>
+                                <color key="textColor" red="0.9739001397" green="0.2029052073" blue="0.1591171019" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -673,6 +687,7 @@
                         <outlet property="player1Card3" destination="sKj-pO-5lQ" id="x6Z-Hc-6pU"/>
                         <outlet property="player1Card4" destination="ZFp-t0-HbD" id="qI1-Cp-uFi"/>
                         <outlet property="player1Card5" destination="mcY-aa-Ljs" id="SDN-P3-cyz"/>
+                        <outlet property="player1Out" destination="GEY-FD-tLO" id="PyF-tU-8BQ"/>
                         <outlet property="player1Sum" destination="23d-L2-kkR" id="0zw-by-QoJ"/>
                         <outlet property="player2BetBalance" destination="zWc-Wx-cf9" id="GmY-8l-6hO"/>
                         <outlet property="player2BetButton" destination="cvq-bE-Iza" id="0gD-3J-PUA"/>
@@ -682,6 +697,7 @@
                         <outlet property="player2Card3" destination="2j3-Lb-dTa" id="YrQ-OR-JFP"/>
                         <outlet property="player2Card4" destination="Rqv-XS-hMx" id="qiG-wv-S60"/>
                         <outlet property="player2Card5" destination="Ure-bu-dLZ" id="sX3-HU-C8J"/>
+                        <outlet property="player2Out" destination="rDh-Pr-pOK" id="9hd-Co-C0b"/>
                         <outlet property="player2Sum" destination="wBQ-L4-YXT" id="hXu-iZ-0JI"/>
                         <outlet property="retryButton" destination="1Xu-3h-dLN" id="i6H-c1-1M0"/>
                         <outlet property="standButton1" destination="ZZd-gb-oqz" id="7Ta-3Z-Etg"/>
@@ -690,7 +706,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c4X-RX-azb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="196" y="1134"/>
+            <point key="canvasLocation" x="-177" y="833"/>
         </scene>
     </scenes>
     <resources>

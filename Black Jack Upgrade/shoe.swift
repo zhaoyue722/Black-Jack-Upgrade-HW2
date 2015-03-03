@@ -9,20 +9,25 @@
 import Foundation
 
 class Shoe {
-    var shoes: [Card] = []
+    var decks: [Deck] = []
     
-    init (deckSize: Int) {
-        initshoe(deckSize)
+    init(numDeck: Int) {
+        var newdeck: Deck = Deck()
+        for i in 0..<numDeck {
+            var tmpDeck = Deck()
+            tmpDeck.createDeck()
+            decks.append(tmpDeck);
+        }
     }
     
-    func initshoe (deckSize: Int) {
-        var newdeck: Deck = Deck()
-        for i in 0..<deckSize {
-            for j in 0..<newdeck.cards.count {
-                  shoes.append (newdeck.cards[j])
-        
-           }
-        }
+    func addDeck() {
+        var tmpDeck = Deck()
+        tmpDeck.createDeck()
+        decks.append(tmpDeck)
+    }
+    
+    func removeAllDeck() {
+        decks.removeAll(keepCapacity: false);
     }
     
 }

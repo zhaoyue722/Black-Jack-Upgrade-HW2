@@ -27,10 +27,16 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func mulPlayer(sender: UIButton) {
+        self.performSegueWithIdentifier("toMultiple", sender: self)
+    }
     @IBAction func oneDeck(sender: UIButton) {
         numberOfDeckSize = 1
     }
     
+    @IBAction func slgPlayer(sender: UIButton) {
+        self.performSegueWithIdentifier("toSingle", sender: self)
+    }
     @IBAction func twoDeck(sender: UIButton) {
         numberOfDeckSize = 2
     }
@@ -40,8 +46,11 @@ class ViewController: UIViewController {
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if (segue.identifier == "toSingle" || segue.identifier == "toMutiple") {
-            let svc = segue.destinationViewController as ViewController
+        if (segue.identifier == "toSingle") {
+            let svc = segue.destinationViewController as ViewControllerSinglePlayer
+            svc.numberOfDeckSize = numberOfDeckSize
+        }else if (segue.identifier == "toMultiple") {
+            let svc = segue.destinationViewController as ViewControllerMultiplePlayers
             svc.numberOfDeckSize = numberOfDeckSize
         }
     }
