@@ -260,6 +260,17 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AMd-Re-MHG">
+                                <rect key="frame" x="314" y="36" width="81" height="30"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
+                                <state key="normal" title="🚧 STAND">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="standButton:" destination="3sU-Ns-rLY" eventType="touchUpInside" id="1RI-Hj-W3K"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d4X-0m-yWC">
                                 <rect key="frame" x="421" y="36" width="60" height="30"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
@@ -328,17 +339,9 @@
                                     <action selector="Bet:" destination="3sU-Ns-rLY" eventType="touchUpInside" id="H7F-A0-DlC"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AMd-Re-MHG">
-                                <rect key="frame" x="314" y="36" width="81" height="30"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
-                                <state key="normal" title="🚧 STAND">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="standButton:" destination="3sU-Ns-rLY" eventType="touchUpInside" id="1RI-Hj-W3K"/>
-                                </connections>
-                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="poker" translatesAutoresizingMaskIntoConstraints="NO" id="TvX-zH-0e6">
+                                <rect key="frame" x="500" y="9" width="110" height="99"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.093105751050000005" green="0.38441179800000003" blue="0.2496412858" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -366,7 +369,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z2Q-xo-YDn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="472" y="794"/>
+            <point key="canvasLocation" x="236" y="765"/>
         </scene>
         <!--View Controller Multiple Players-->
         <scene sceneID="nPh-Wu-Ibi">
@@ -457,17 +460,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZZd-gb-oqz">
-                                <rect key="frame" x="478" y="115" width="46" height="30"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
-                                <state key="normal" title="stand">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="player1Stand:" destination="nby-cA-q9e" eventType="touchUpInside" id="ojW-1u-eYO"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ab-Gf-uxZ">
                                 <rect key="frame" x="532" y="115" width="36" height="30"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
@@ -666,6 +658,20 @@
                                 <color key="textColor" red="0.9739001397" green="0.2029052073" blue="0.1591171019" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="poker" translatesAutoresizingMaskIntoConstraints="NO" id="BhX-0f-r4g">
+                                <rect key="frame" x="524" y="0.0" width="110" height="99"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZZd-gb-oqz">
+                                <rect key="frame" x="479" y="114" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="stand">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="player1Stand:" destination="nby-cA-q9e" eventType="touchUpInside" id="ojW-1u-eYO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.093105751050000005" green="0.38441179800000003" blue="0.2496412858" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -711,6 +717,7 @@
     </scenes>
     <resources>
         <image name="player1" width="285" height="435"/>
+        <image name="poker" width="1024" height="1024"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -718,6 +725,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="aWK-MU-I8l"/>
+        <segue reference="MIi-n2-7XL"/>
     </inferredMetricsTieBreakers>
 </document>
