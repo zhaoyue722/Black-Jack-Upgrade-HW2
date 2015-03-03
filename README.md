@@ -2,6 +2,7 @@
 
 
 (When tested, the device should be rotated left or right.)
+
 First, you can choose the amount of deck of cards and you can choose to play alone or play with your friends.
 ![image](https://raw.githubusercontent.com/zhaoyue722/Black-Jack-Upgrade-HW2/master/screenshots/Screen%20Shot%202015-03-02%20at%206.52.03%20PM.png)
 Single Player Mode:
