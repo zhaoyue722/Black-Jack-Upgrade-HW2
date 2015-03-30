@@ -13,26 +13,39 @@ class ViewControllerSinglePlayer: UIViewController {
     @IBOutlet weak var betInput: UITextField!
     @IBOutlet weak var betButton: UIButton!
     @IBOutlet weak var chipBalance: UILabel!
-    @IBOutlet weak var Playercard1: UILabel!
-    @IBOutlet weak var Playercard2: UILabel!
-    @IBOutlet weak var Playercard3: UILabel!
-    @IBOutlet weak var Playercard4: UILabel!
-    @IBOutlet weak var Playercard5: UILabel!
+
+    @IBOutlet weak var Playercard1: UIImageView!
+  
+    @IBOutlet weak var Playercard2: UIImageView!
+    
+    @IBOutlet weak var Playercard3: UIImageView!
+    
+    @IBOutlet weak var Playercard4: UIImageView!
+    
+    @IBOutlet weak var Playercard5: UIImageView!
     
     @IBOutlet weak var standButton: UIButton!
     @IBOutlet weak var hitButton: UIButton!
     @IBOutlet weak var playersum: UILabel!
-    @IBOutlet weak var dealercard1: UILabel!
-    @IBOutlet weak var dealercard2: UILabel!
-    @IBOutlet weak var dealercard3: UILabel!
-    @IBOutlet weak var dealercard4: UILabel!
-    @IBOutlet weak var dealercard5: UILabel!
+    
+    @IBOutlet weak var dealercard1: UIImageView!
+    
+    @IBOutlet weak var dealercard2: UIImageView!
+    
+    @IBOutlet weak var dealercard3: UIImageView!
+    
+    @IBOutlet weak var dealercard4: UIImageView!
+    
+    @IBOutlet weak var dealercard5: UIImageView!
+    
+   
+
     @IBOutlet weak var dealersum: UILabel!
     
     @IBOutlet weak var retryButton: UIButton!
     
-    var playerLabels:[UILabel] = []
-    var dealerLabels:[UILabel] = []
+    var playerLabels:[UIImageView] = []
+    var dealerLabels:[UIImageView] = []
     var blackjack: Game!
     var cntchip:Int = 100
     var numberOfDeckSize: Int = 1
@@ -72,7 +85,7 @@ class ViewControllerSinglePlayer: UIViewController {
         var current:Int = blackjack.player1.checkSum().intSum
         if (current > 21) {
             for x in 0..<blackjack.player1.cards.count {
-                playerLabels[x].text = nil
+                playerLabels[x].image = nil
             }
             blackjack.stand1(blackjack.currentPlayer)
         }
@@ -87,8 +100,8 @@ class ViewControllerSinglePlayer: UIViewController {
         blackjack.player1.stand = false
         //dealerLabels[0].hidden = true
         //dealerLabels.removeAll(keepCapacity: false)
-        for i in 0..<2 {dealerLabels[i].text = " "}
-        for i in 0..<5 {playerLabels[i].text = " "}
+        for i in 0..<2 {dealerLabels[i].image = nil}
+        for i in 0..<5 {playerLabels[i].image = nil}
         
         blackjack.player1.cards.removeAll(keepCapacity: false)
         blackjack.dealer.cards.removeAll(keepCapacity: false)
@@ -114,7 +127,7 @@ class ViewControllerSinglePlayer: UIViewController {
         }
         
         if (alreadystand > 0) {
-            dealerLabels[0].text = blackjack.dealer.cardShow()?.cd //??
+            dealerLabels[0].image = blackjack.dealer.cardShow()?.cd //??
             hitButton.hidden = true
             standButton.hidden = true
             while (blackjack.dealer.checkSum().intSum < 16) {
@@ -173,12 +186,12 @@ class ViewControllerSinglePlayer: UIViewController {
     func reload() {
        
         for x in 0..<blackjack.player1.cards.count {
-            playerLabels[x].text = blackjack.player1.cards[x].cd
+            playerLabels[x].image = blackjack.player1.cards[x].cd
             playersum.text = blackjack.player1.checkSum().strSum
             
         }
         for y in 0..<blackjack.dealer.cards.count {
-            dealerLabels[y].text = blackjack.dealer.cards[y].cd
+            dealerLabels[y].image = blackjack.dealer.cards[y].cd
         }
         
     }

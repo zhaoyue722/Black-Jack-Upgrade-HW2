@@ -200,66 +200,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KEO-Ud-dKQ">
-                                <rect key="frame" x="94" y="109" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3A-m0-9Li">
-                                <rect key="frame" x="94" y="139" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uKC-9J-gHl">
-                                <rect key="frame" x="94" y="171" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GHk-cj-i7R">
-                                <rect key="frame" x="94" y="206" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oUj-Oc-Lyg">
-                                <rect key="frame" x="94" y="245" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Px0-aB-cXL">
-                                <rect key="frame" x="290" y="108" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ghr-hN-FUv">
-                                <rect key="frame" x="290" y="138" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m2Q-Vs-pVO">
-                                <rect key="frame" x="290" y="170" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KM6-1s-fOi">
-                                <rect key="frame" x="290" y="205" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xxg-hW-UEQ">
-                                <rect key="frame" x="290" y="244" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AMd-Re-MHG">
                                 <rect key="frame" x="314" y="36" width="81" height="30"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
@@ -321,13 +261,6 @@
                                 <color key="textColor" red="0.89561596750000005" green="0.90818189540000005" blue="0.1929215222" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Secert Card" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vn3-V5-kPJ">
-                                <rect key="frame" x="94" y="107" width="74" height="29.5"/>
-                                <color key="backgroundColor" red="0.63056819509999995" green="1" blue="0.80076428690000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ySu-AU-ybI">
                                 <rect key="frame" x="421" y="167" width="49" height="30"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
@@ -342,24 +275,54 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="poker" translatesAutoresizingMaskIntoConstraints="NO" id="TvX-zH-0e6">
                                 <rect key="frame" x="500" y="9" width="110" height="99"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9pH-XV-biS">
+                                <rect key="frame" x="292" y="99" width="27" height="37.5"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nyt-Y6-VWG">
+                                <rect key="frame" x="292" y="129" width="27" height="37.5"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5uK-1x-iTs">
+                                <rect key="frame" x="292" y="155" width="27" height="41.5"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5OJ-k7-9Zt">
+                                <rect key="frame" x="292" y="193" width="27" height="37.5"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5xZ-kw-E1Y">
+                                <rect key="frame" x="292" y="235" width="27" height="37.5"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uyk-0Z-Qvd">
+                                <rect key="frame" x="97" y="98" width="25" height="38.5"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ruL-YF-xPm">
+                                <rect key="frame" x="97" y="128" width="25" height="38.5"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="paZ-3p-urJ">
+                                <rect key="frame" x="97" y="158" width="25" height="38.5"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YiO-Yt-ULd">
+                                <rect key="frame" x="97" y="187" width="25" height="38.5"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lii-Fn-TjB">
+                                <rect key="frame" x="97" y="233" width="25" height="38.5"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.093105751050000005" green="0.38441179800000003" blue="0.2496412858" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
-                        <outlet property="Playercard1" destination="Px0-aB-cXL" id="IpV-gD-kV3"/>
-                        <outlet property="Playercard2" destination="Ghr-hN-FUv" id="m2a-d2-cJ7"/>
-                        <outlet property="Playercard3" destination="m2Q-Vs-pVO" id="IzE-lu-Xu2"/>
-                        <outlet property="Playercard4" destination="KM6-1s-fOi" id="0a5-aZ-u1r"/>
-                        <outlet property="Playercard5" destination="xxg-hW-UEQ" id="r7q-PQ-CX5"/>
+                        <outlet property="Playercard1" destination="9pH-XV-biS" id="JtH-Y4-vA1"/>
+                        <outlet property="Playercard2" destination="Nyt-Y6-VWG" id="gRm-6K-Bgt"/>
+                        <outlet property="Playercard3" destination="5uK-1x-iTs" id="DXk-uP-ir0"/>
+                        <outlet property="Playercard4" destination="5OJ-k7-9Zt" id="AHY-5K-r1d"/>
+                        <outlet property="Playercard5" destination="5xZ-kw-E1Y" id="djt-BG-Aba"/>
                         <outlet property="betButton" destination="ySu-AU-ybI" id="6bM-cz-rdh"/>
                         <outlet property="betInput" destination="A0k-Ef-4KL" id="g35-Un-slN"/>
                         <outlet property="chipBalance" destination="O2D-yb-sVc" id="kIZ-LB-bTk"/>
-                        <outlet property="dealercard1" destination="KEO-Ud-dKQ" id="Mbv-ow-Uoh"/>
-                        <outlet property="dealercard2" destination="b3A-m0-9Li" id="msg-PA-dub"/>
-                        <outlet property="dealercard3" destination="uKC-9J-gHl" id="SME-M8-nax"/>
-                        <outlet property="dealercard4" destination="GHk-cj-i7R" id="spw-XE-0gu"/>
-                        <outlet property="dealercard5" destination="oUj-Oc-Lyg" id="x9i-Wk-M7D"/>
+                        <outlet property="dealercard1" destination="uyk-0Z-Qvd" id="sht-GG-U1K"/>
+                        <outlet property="dealercard2" destination="ruL-YF-xPm" id="hhn-TV-8Oy"/>
+                        <outlet property="dealercard3" destination="paZ-3p-urJ" id="GOp-se-K09"/>
+                        <outlet property="dealercard4" destination="YiO-Yt-ULd" id="S2A-KK-bJc"/>
+                        <outlet property="dealercard5" destination="lii-Fn-TjB" id="t2A-p5-sIB"/>
                         <outlet property="dealersum" destination="dj0-Ls-9Za" id="crb-8T-ATJ"/>
                         <outlet property="hitButton" destination="d4X-0m-yWC" id="wvL-li-rno"/>
                         <outlet property="playersum" destination="n7K-hf-hQW" id="LMf-0z-5v1"/>
@@ -369,7 +332,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z2Q-xo-YDn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="236" y="765"/>
+            <point key="canvasLocation" x="-67" y="705"/>
         </scene>
         <!--View Controller Multiple Players-->
         <scene sceneID="nPh-Wu-Ibi">
@@ -394,70 +357,10 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dci-Mf-uUC">
-                                <rect key="frame" x="43" y="106" width="42" height="23"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bns-h8-uRh">
-                                <rect key="frame" x="43" y="146" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJ8-YB-JNe">
-                                <rect key="frame" x="43" y="184" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uP5-Io-rMS">
-                                <rect key="frame" x="43" y="224" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AGr-8h-URQ">
-                                <rect key="frame" x="43" y="264" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player 1:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOL-vs-zCx">
                                 <rect key="frame" x="182" y="85" width="67" height="27.5"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="17"/>
                                 <color key="textColor" red="0.727905767533229" green="0.83840215773809523" blue="0.38247943981221932" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aNo-cp-V0g">
-                                <rect key="frame" x="182" y="119" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hmc-Ln-wLI">
-                                <rect key="frame" x="240" y="119" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sKj-pO-5lQ">
-                                <rect key="frame" x="300" y="119" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZFp-t0-HbD">
-                                <rect key="frame" x="361" y="119" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mcY-aa-Ljs">
-                                <rect key="frame" x="421" y="119" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ab-Gf-uxZ">
@@ -475,36 +378,6 @@
                                 <rect key="frame" x="180" y="214" width="75" height="21"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="17"/>
                                 <color key="textColor" red="0.72790576750000002" green="0.83840215770000004" blue="0.38247943979999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="39k-4n-iGS">
-                                <rect key="frame" x="180" y="250" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fmb-mg-cF1">
-                                <rect key="frame" x="238" y="250" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2j3-Lb-dTa">
-                                <rect key="frame" x="298" y="250" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rqv-XS-hMx">
-                                <rect key="frame" x="359" y="250" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ure-bu-dLZ">
-                                <rect key="frame" x="419" y="250" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uTh-gp-Zqb">
@@ -628,13 +501,6 @@
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Secert Card" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eZJ-eX-Jc7">
-                                <rect key="frame" x="33" y="108" width="74" height="29.5"/>
-                                <color key="backgroundColor" red="0.63056819509999995" green="1" blue="0.80076428690000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fPb-nj-cLj">
                                 <rect key="frame" x="412" y="78" width="57" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -672,37 +538,82 @@
                                     <action selector="player1Stand:" destination="nby-cA-q9e" eventType="touchUpInside" id="ojW-1u-eYO"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KNu-Ab-jgA">
+                                <rect key="frame" x="175" y="114" width="53" height="32.5"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l1T-pv-n0t">
+                                <rect key="frame" x="217" y="113" width="53" height="32.5"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZYD-U1-tfj">
+                                <rect key="frame" x="254" y="113" width="53" height="32.5"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1c7-Wn-1lF">
+                                <rect key="frame" x="298" y="114" width="53" height="32.5"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IVV-QB-7V4">
+                                <rect key="frame" x="344" y="114" width="53" height="32.5"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HNR-W0-fuU">
+                                <rect key="frame" x="43" y="175" width="28" height="37"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VEH-Zp-6nr">
+                                <rect key="frame" x="43" y="220" width="28" height="37"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I8B-31-8PP">
+                                <rect key="frame" x="43" y="263" width="28" height="37"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hFd-Ir-atK">
+                                <rect key="frame" x="175" y="246" width="49" height="30"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eo3-P8-1Vs">
+                                <rect key="frame" x="211" y="246" width="49" height="30"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cR3-aR-vkx">
+                                <rect key="frame" x="247" y="246" width="49" height="30"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Quy-zu-wTv">
+                                <rect key="frame" x="280" y="246" width="49" height="30"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qg2-Vz-0xp">
+                                <rect key="frame" x="316" y="246" width="49" height="30"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="udw-r5-CbT">
+                                <rect key="frame" x="43" y="85" width="29" height="39.5"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i6j-JD-9ir">
+                                <rect key="frame" x="43" y="130" width="28" height="37"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.093105751050000005" green="0.38441179800000003" blue="0.2496412858" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
-                        <outlet property="dealerCard1" destination="Dci-Mf-uUC" id="ou7-CO-4Zd"/>
-                        <outlet property="dealerCard2" destination="bns-h8-uRh" id="khi-ZR-D99"/>
-                        <outlet property="dealerCard3" destination="hJ8-YB-JNe" id="HgR-q0-HLb"/>
-                        <outlet property="dealerCard4" destination="uP5-Io-rMS" id="r12-vD-OD0"/>
-                        <outlet property="dealerCard5" destination="AGr-8h-URQ" id="Ajs-Ya-pRV"/>
+                        <outlet property="dealerCard1" destination="udw-r5-CbT" id="vpm-Cf-asQ"/>
+                        <outlet property="dealerCard2" destination="i6j-JD-9ir" id="Tr8-iK-EXZ"/>
+                        <outlet property="dealerCard3" destination="HNR-W0-fuU" id="zT5-b2-mpU"/>
+                        <outlet property="dealerCard4" destination="VEH-Zp-6nr" id="gwa-GT-jkC"/>
+                        <outlet property="dealerCard5" destination="I8B-31-8PP" id="AnY-gc-7kK"/>
                         <outlet property="dealerSum" destination="BKa-0i-kow" id="ESR-gy-z21"/>
                         <outlet property="hitButton1" destination="4Ab-Gf-uxZ" id="L1P-Bl-5wO"/>
                         <outlet property="hitButton2" destination="r95-ZG-sXR" id="tTc-9b-9rS"/>
                         <outlet property="player1BetBalance" destination="Icb-bu-Aah" id="xGe-al-JE4"/>
                         <outlet property="player1BetButton" destination="GGQ-28-mLm" id="Ypj-rR-yaM"/>
                         <outlet property="player1BetInput" destination="fPb-nj-cLj" id="A8A-Zy-VEB"/>
-                        <outlet property="player1Card1" destination="aNo-cp-V0g" id="0Q4-W2-CRS"/>
-                        <outlet property="player1Card2" destination="hmc-Ln-wLI" id="aK5-KC-td8"/>
-                        <outlet property="player1Card3" destination="sKj-pO-5lQ" id="x6Z-Hc-6pU"/>
-                        <outlet property="player1Card4" destination="ZFp-t0-HbD" id="qI1-Cp-uFi"/>
-                        <outlet property="player1Card5" destination="mcY-aa-Ljs" id="SDN-P3-cyz"/>
+                        <outlet property="player1Card1" destination="KNu-Ab-jgA" id="EVa-A0-0ZN"/>
+                        <outlet property="player1Card2" destination="l1T-pv-n0t" id="CEW-aR-0pw"/>
+                        <outlet property="player1Card3" destination="ZYD-U1-tfj" id="Zg8-oY-ZeV"/>
+                        <outlet property="player1Card4" destination="1c7-Wn-1lF" id="oQ2-xA-jsT"/>
+                        <outlet property="player1Card5" destination="IVV-QB-7V4" id="CxD-qb-mng"/>
                         <outlet property="player1Out" destination="GEY-FD-tLO" id="PyF-tU-8BQ"/>
                         <outlet property="player1Sum" destination="23d-L2-kkR" id="0zw-by-QoJ"/>
                         <outlet property="player2BetBalance" destination="zWc-Wx-cf9" id="GmY-8l-6hO"/>
                         <outlet property="player2BetButton" destination="cvq-bE-Iza" id="0gD-3J-PUA"/>
                         <outlet property="player2BetInput" destination="Xce-68-i2K" id="v6p-HU-nXQ"/>
-                        <outlet property="player2Card1" destination="39k-4n-iGS" id="Nrb-ty-2eb"/>
-                        <outlet property="player2Card2" destination="Fmb-mg-cF1" id="JCq-CD-dav"/>
-                        <outlet property="player2Card3" destination="2j3-Lb-dTa" id="YrQ-OR-JFP"/>
-                        <outlet property="player2Card4" destination="Rqv-XS-hMx" id="qiG-wv-S60"/>
-                        <outlet property="player2Card5" destination="Ure-bu-dLZ" id="sX3-HU-C8J"/>
+                        <outlet property="player2Card1" destination="hFd-Ir-atK" id="E7E-Lc-NTA"/>
+                        <outlet property="player2Card2" destination="Eo3-P8-1Vs" id="YQI-M7-FUY"/>
+                        <outlet property="player2Card3" destination="cR3-aR-vkx" id="3pR-as-lqx"/>
+                        <outlet property="player2Card4" destination="Quy-zu-wTv" id="8B5-Zj-190"/>
+                        <outlet property="player2Card5" destination="Qg2-Vz-0xp" id="R2Y-NN-1F9"/>
                         <outlet property="player2Out" destination="rDh-Pr-pOK" id="9hd-Co-C0b"/>
                         <outlet property="player2Sum" destination="wBQ-L4-YXT" id="hXu-iZ-0JI"/>
                         <outlet property="retryButton" destination="1Xu-3h-dLN" id="i6H-c1-1M0"/>
@@ -712,7 +623,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c4X-RX-azb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-177" y="833"/>
+            <point key="canvasLocation" x="617" y="705"/>
         </scene>
     </scenes>
     <resources>
@@ -725,6 +636,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="MIi-n2-7XL"/>
+        <segue reference="aWK-MU-I8l"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 class Deck {
     var cards:[Card] = []
@@ -18,7 +19,7 @@ class Deck {
         let suits = [Suit.Spades, Suit.Hearts, Suit.Diamonds, Suit.Clubs]
         for eachS in 0..<suits.count {
             for eachR in 0..<ranks.count {
-                var imageFileName: String = ranks[eachR].simpleDescription() + suits[eachS].simpleDescritption()   //what imageFileName for
+                var imageFileName: UIImage = UIImage(named: "\(ranks[eachR].simpleDescription())_of_\(suits[eachS].simpleDescritption()).png")! //ranks[eachR].simpleDescription() + suits[eachS].simpleDescritption()   //what imageFileName for
                 cards.append(Card(rank: ranks[eachR], suit: suits[eachS], cardNum: imageFileName))
             }
         }

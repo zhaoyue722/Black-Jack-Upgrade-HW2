@@ -9,36 +9,36 @@
 import UIKit
 
 class ViewControllerMultiplePlayers: UIViewController {
-
-    @IBOutlet weak var dealerCard1: UILabel!
     
-    @IBOutlet weak var dealerCard2: UILabel!
+    @IBOutlet weak var dealerCard1: UIImageView!
+ 
+    @IBOutlet weak var dealerCard2: UIImageView!
     
-    @IBOutlet weak var dealerCard3: UILabel!
+    @IBOutlet weak var dealerCard3: UIImageView!
     
-    @IBOutlet weak var dealerCard4: UILabel!
+    @IBOutlet weak var dealerCard4: UIImageView!
     
-    @IBOutlet weak var dealerCard5: UILabel!
+    @IBOutlet weak var dealerCard5: UIImageView!
     
-    @IBOutlet weak var player1Card1: UILabel!
-  
-    @IBOutlet weak var player1Card2: UILabel!
+    @IBOutlet weak var player1Card1: UIImageView!
     
-    @IBOutlet weak var player1Card3: UILabel!
+    @IBOutlet weak var player1Card2: UIImageView!
     
-    @IBOutlet weak var player1Card4: UILabel!
+    @IBOutlet weak var player1Card3: UIImageView!
     
-    @IBOutlet weak var player1Card5: UILabel!
+    @IBOutlet weak var player1Card4: UIImageView!
     
-    @IBOutlet weak var player2Card1: UILabel!
+    @IBOutlet weak var player1Card5: UIImageView!
     
-    @IBOutlet weak var player2Card2: UILabel!
+    @IBOutlet weak var player2Card1: UIImageView!
     
-    @IBOutlet weak var player2Card3: UILabel!
+    @IBOutlet weak var player2Card2: UIImageView!
     
-    @IBOutlet weak var player2Card4: UILabel!
+    @IBOutlet weak var player2Card3: UIImageView!
     
-    @IBOutlet weak var player2Card5: UILabel!
+    @IBOutlet weak var player2Card4: UIImageView!
+    
+    @IBOutlet weak var player2Card5: UIImageView!
     
 
     @IBOutlet weak var player1BetInput: UITextField!
@@ -76,9 +76,9 @@ class ViewControllerMultiplePlayers: UIViewController {
     @IBOutlet weak var player2Out: UILabel!
     
     
-    var player1Labels:[UILabel] = []
-    var player2Labels:[UILabel] = []
-    var dealerLabels:[UILabel] = []
+    var player1Labels:[UIImageView] = []
+    var player2Labels:[UIImageView] = []
+    var dealerLabels:[UIImageView] = []
     var blackjack: Game!
     var player1cntchip: Int = 100
     var player2cntchip: Int = 100
@@ -152,7 +152,7 @@ class ViewControllerMultiplePlayers: UIViewController {
         if (current > 21) {
             for x in 0..<blackjack.player1.cards
                     .count {
-                        player1Labels[x].text = nil
+                        player1Labels[x].image = nil
                 }
                 blackjack.stand1(blackjack.currentPlayer)
             }
@@ -167,7 +167,7 @@ class ViewControllerMultiplePlayers: UIViewController {
             if (current > 21) {
                 for x in 0..<blackjack.player2.cards
                     .count {
-                        player2Labels[x].text = nil
+                        player2Labels[x].image = nil
                 }
                 blackjack.stand2(blackjack.currentPlayer)
             }
@@ -188,13 +188,13 @@ class ViewControllerMultiplePlayers: UIViewController {
             blackjack.player1.stand = false
         }
         for i in 0..<2 {
-            dealerLabels[i].text = " "
+            dealerLabels[i].image = nil
         }
         for i in 0..<5 {
-            player1Labels[i].text = " "
+            player1Labels[i].image = nil
         }
         for i in 0..<5 {
-            player2Labels[i].text = " "
+            player2Labels[i].image = nil
         }
         blackjack.dealer.cards.removeAll(keepCapacity: false)
         blackjack.player1.cards.removeAll(keepCapacity: false)
@@ -222,19 +222,19 @@ class ViewControllerMultiplePlayers: UIViewController {
     
     func reload() {
         for x in 0..<blackjack.player1.cards.count {
-                player1Labels[x].text = blackjack.player1.cards[x].cd
+                player1Labels[x].image = blackjack.player1.cards[x].cd
                 player1Sum.text = blackjack.player1.checkSum().strSum
                 
         }
         for x in 0..<blackjack.player2.cards.count {
-            player2Labels[x].text = blackjack.player2.cards[x].cd
+            player2Labels[x].image = blackjack.player2.cards[x].cd
             player2Sum.text = blackjack.player2.checkSum().strSum
             
         }
 
 
             for y in 0..<blackjack.dealer.cards.count {
-            dealerLabels[y].text = blackjack.dealer.cards[y].cd
+            dealerLabels[y].image = blackjack.dealer.cards[y].cd
         }
     }
     
@@ -256,7 +256,7 @@ class ViewControllerMultiplePlayers: UIViewController {
         
             
             if (blackjack.player1.stand == true) {
-                dealerLabels[0].text = blackjack.dealer.cardShow()?.cd
+                dealerLabels[0].image = blackjack.dealer.cardShow()?.cd
                 hitButton1.hidden = true
                 standButton1.hidden = true
             }
@@ -284,7 +284,7 @@ class ViewControllerMultiplePlayers: UIViewController {
             
             
             if (blackjack.player2.stand == true && blackjack.player1.stand == true) {
-                dealerLabels[0].text = blackjack.dealer.cardShow()?.cd
+                dealerLabels[0].image = blackjack.dealer.cardShow()?.cd
                 //hitButton1.hidden = true
                 hitButton2.hidden = true
                 //standButton1.hidden = true

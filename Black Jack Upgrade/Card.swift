@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+import UIKit
 enum Rank: Int {
     case Two = 2
     case Three, Four, Five, Six, Seven, Eight, Nine, Ten
@@ -15,13 +15,13 @@ enum Rank: Int {
     func simpleDescription() -> String {
         switch self {
         case .Ace:
-            return "A"
+            return "ace"
         case .Jack:
-            return "j"
+            return "jack"
         case .Queen:
-            return "Q"
+            return "queen"
         case .King:
-            return "K"
+            return "king"
         default:
             return String(self.rawValue)
         }
@@ -51,13 +51,13 @@ enum Suit: Character {
     func simpleDescritption() -> String {
         switch self {
         case .Spades:
-            return "♠"
+            return "spades"
         case .Hearts:
-            return "♥"
+            return "hearts"
         case .Diamonds:
-            return "♦"
+            return "diamonds"
         case .Clubs:
-            return "♣"
+            return "clubs"
         }
     }
 }
@@ -67,8 +67,8 @@ class Card {
     var suit: Suit
     var hiddenCard = false
     var currentCard = 0 //???
-    var cd:String?
-    init (rank: Rank, suit: Suit,cardNum: String) {
+    var cd:UIImage!
+    init (rank: Rank, suit: Suit,cardNum: UIImage) {
         self.suit = suit
         self.rank = rank
         self.cd = cardNum  
