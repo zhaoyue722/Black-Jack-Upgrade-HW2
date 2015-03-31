@@ -33,7 +33,7 @@ class Game {
         dealer.addCard(catchCard(currentDeck)!)
         dealer.addCard(catchCard(currentDeck)!)
         dealer.hiddenCard = dealer.cards[0]
-        dealer.cards[0].cd = UIImage(named: "secertcard.jpg")
+        dealer.cards[0].cd = UIImage(named: "secret.jpeg")
     }
     
     func catchCard(cardm: Int) ->Card? {

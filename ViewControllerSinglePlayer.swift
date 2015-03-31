@@ -141,7 +141,7 @@ class ViewControllerSinglePlayer: UIViewController {
         chipBalance.text = "\(cntchip)"
         //var current : Int = cntchip - betInput.text.toInt()!
         //chipBalance.text = "\(current)"
-        dealerLabels[0].hidden = true
+        //dealerLabels[0].hidden = true
         
     }
     

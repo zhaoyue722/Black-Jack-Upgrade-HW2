@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58279CBB1ACA49A60000624F /* secret.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 58279CBA1ACA49A60000624F /* secret.jpeg */; };
 		586EB68C1AA104C900F651BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586EB68B1AA104C900F651BB /* AppDelegate.swift */; };
 		586EB68E1AA104C900F651BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586EB68D1AA104C900F651BB /* ViewController.swift */; };
 		586EB6911AA104C900F651BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586EB68F1AA104C900F651BB /* Main.storyboard */; };
@@ -102,6 +103,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		58279CBA1ACA49A60000624F /* secret.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = secret.jpeg; sourceTree = "<group>"; };
 		586EB6861AA104C900F651BB /* Black Jack Upgrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Black Jack Upgrade.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		586EB68A1AA104C900F651BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		586EB68B1AA104C900F651BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -251,6 +253,7 @@
 			isa = PBXGroup;
 			children = (
 				58EFD3191ACA242E00D33E49 /* secertcard.jpg */,
+				58279CBA1ACA49A60000624F /* secret.jpeg */,
 				58EFD2921AC5E13D00D33E49 /* PNG-cards-1.3 */,
 				586EB68A1AA104C900F651BB /* Info.plist */,
 			);
@@ -450,6 +453,7 @@
 				58EFD2E11AC5E13D00D33E49 /* 3_of_spades.png in Resources */,
 				586EB6931AA104C900F651BB /* Images.xcassets in Resources */,
 				58EFD2EE1AC5E13D00D33E49 /* 7_of_clubs.png in Resources */,
+				58279CBB1ACA49A60000624F /* secret.jpeg in Resources */,
 				58EFD3011AC5E13D00D33E49 /* jack_of_clubs2.png in Resources */,
 				58EFD30B1AC5E13D00D33E49 /* king_of_diamonds2.png in Resources */,
 				58EFD30C1AC5E13D00D33E49 /* king_of_hearts.png in Resources */,
