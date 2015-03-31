@@ -380,29 +380,6 @@
                                 <color key="textColor" red="0.72790576750000002" green="0.83840215770000004" blue="0.38247943979999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uTh-gp-Zqb">
-                                <rect key="frame" x="474" y="246" width="46" height="30"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="17"/>
-                                <state key="normal" title="stand">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="player1Stand:" destination="nby-cA-q9e" eventType="touchUpInside" id="jqb-1l-A2u"/>
-                                    <action selector="player2Stand:" destination="nby-cA-q9e" eventType="touchUpInside" id="W30-Ew-2VP"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r95-ZG-sXR">
-                                <rect key="frame" x="530" y="246" width="38" height="30"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="17"/>
-                                <state key="normal" title="hit">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="player2Hit:" destination="nby-cA-q9e" eventType="touchUpInside" id="Ssp-De-cOd"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BZQ-8k-wLp">
                                 <rect key="frame" x="524" y="298" width="53" height="30"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
@@ -455,18 +432,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cvq-bE-Iza">
-                                <rect key="frame" x="487" y="207" width="30" height="30"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
-                                <state key="normal" title="Bet">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="player2Bet:" destination="nby-cA-q9e" eventType="touchUpInside" id="FTg-gw-cep"/>
-                                </connections>
-                            </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xce-68-i2K">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="10" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xce-68-i2K">
                                 <rect key="frame" x="412" y="208" width="57" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -483,13 +449,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23d-L2-kkR">
-                                <rect key="frame" x="182" y="156" width="237" height="21"/>
+                                <rect key="frame" x="182" y="164" width="237" height="21"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
                                 <color key="textColor" red="0.89561596750000005" green="0.90818189540000005" blue="0.1929215222" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wBQ-L4-YXT">
-                                <rect key="frame" x="182" y="291" width="237" height="21"/>
+                                <rect key="frame" x="182" y="297" width="237" height="21"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
                                 <color key="textColor" red="0.89561596750000005" green="0.90818189540000005" blue="0.1929215222" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -539,49 +505,49 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KNu-Ab-jgA">
-                                <rect key="frame" x="175" y="114" width="53" height="32.5"/>
+                                <rect key="frame" x="175" y="114" width="34" height="46.5"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l1T-pv-n0t">
-                                <rect key="frame" x="217" y="113" width="53" height="32.5"/>
+                                <rect key="frame" x="196" y="113" width="40" height="47.5"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZYD-U1-tfj">
-                                <rect key="frame" x="254" y="113" width="53" height="32.5"/>
+                                <rect key="frame" x="224" y="113" width="36" height="47.5"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1c7-Wn-1lF">
-                                <rect key="frame" x="298" y="114" width="53" height="32.5"/>
+                                <rect key="frame" x="247" y="112" width="39" height="48.5"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IVV-QB-7V4">
-                                <rect key="frame" x="344" y="114" width="53" height="32.5"/>
+                                <rect key="frame" x="274" y="111" width="36" height="49.5"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HNR-W0-fuU">
-                                <rect key="frame" x="43" y="175" width="28" height="37"/>
+                                <rect key="frame" x="39" y="156" width="32" height="37"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VEH-Zp-6nr">
-                                <rect key="frame" x="43" y="220" width="28" height="37"/>
+                                <rect key="frame" x="39" y="182" width="32" height="37"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I8B-31-8PP">
-                                <rect key="frame" x="43" y="263" width="28" height="37"/>
+                                <rect key="frame" x="39" y="206" width="32" height="43"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hFd-Ir-atK">
-                                <rect key="frame" x="175" y="246" width="49" height="30"/>
+                                <rect key="frame" x="175" y="246" width="34" height="45"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eo3-P8-1Vs">
-                                <rect key="frame" x="211" y="246" width="49" height="30"/>
+                                <rect key="frame" x="196" y="246" width="40" height="45"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cR3-aR-vkx">
-                                <rect key="frame" x="247" y="246" width="49" height="30"/>
+                                <rect key="frame" x="223" y="246" width="37" height="45"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Quy-zu-wTv">
-                                <rect key="frame" x="280" y="246" width="49" height="30"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qg2-Vz-0xp">
-                                <rect key="frame" x="316" y="246" width="49" height="30"/>
+                                <rect key="frame" x="247" y="246" width="39" height="45"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="udw-r5-CbT">
-                                <rect key="frame" x="43" y="85" width="29" height="39.5"/>
+                                <rect key="frame" x="39" y="96" width="32" height="42.5"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i6j-JD-9ir">
-                                <rect key="frame" x="43" y="130" width="28" height="37"/>
+                                <rect key="frame" x="39" y="130" width="32" height="37"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qg2-Vz-0xp">
+                                <rect key="frame" x="274" y="246" width="36" height="45"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.093105751050000005" green="0.38441179800000003" blue="0.2496412858" alpha="1" colorSpace="calibratedRGB"/>
@@ -595,7 +561,6 @@
                         <outlet property="dealerCard5" destination="I8B-31-8PP" id="AnY-gc-7kK"/>
                         <outlet property="dealerSum" destination="BKa-0i-kow" id="ESR-gy-z21"/>
                         <outlet property="hitButton1" destination="4Ab-Gf-uxZ" id="L1P-Bl-5wO"/>
-                        <outlet property="hitButton2" destination="r95-ZG-sXR" id="tTc-9b-9rS"/>
                         <outlet property="player1BetBalance" destination="Icb-bu-Aah" id="xGe-al-JE4"/>
                         <outlet property="player1BetButton" destination="GGQ-28-mLm" id="Ypj-rR-yaM"/>
                         <outlet property="player1BetInput" destination="fPb-nj-cLj" id="A8A-Zy-VEB"/>
@@ -607,7 +572,6 @@
                         <outlet property="player1Out" destination="GEY-FD-tLO" id="PyF-tU-8BQ"/>
                         <outlet property="player1Sum" destination="23d-L2-kkR" id="0zw-by-QoJ"/>
                         <outlet property="player2BetBalance" destination="zWc-Wx-cf9" id="GmY-8l-6hO"/>
-                        <outlet property="player2BetButton" destination="cvq-bE-Iza" id="0gD-3J-PUA"/>
                         <outlet property="player2BetInput" destination="Xce-68-i2K" id="v6p-HU-nXQ"/>
                         <outlet property="player2Card1" destination="hFd-Ir-atK" id="E7E-Lc-NTA"/>
                         <outlet property="player2Card2" destination="Eo3-P8-1Vs" id="YQI-M7-FUY"/>
@@ -618,12 +582,11 @@
                         <outlet property="player2Sum" destination="wBQ-L4-YXT" id="hXu-iZ-0JI"/>
                         <outlet property="retryButton" destination="1Xu-3h-dLN" id="i6H-c1-1M0"/>
                         <outlet property="standButton1" destination="ZZd-gb-oqz" id="7Ta-3Z-Etg"/>
-                        <outlet property="standButton2" destination="4Ab-Gf-uxZ" id="MQ0-lF-ryQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c4X-RX-azb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="617" y="705"/>
+            <point key="canvasLocation" x="600" y="696"/>
         </scene>
     </scenes>
     <resources>

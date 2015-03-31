@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UiKit
 
 class Game {
     var shoe: Shoe
@@ -32,6 +33,7 @@ class Game {
         dealer.addCard(catchCard(currentDeck)!)
         dealer.addCard(catchCard(currentDeck)!)
         dealer.hiddenCard = dealer.cards[0]
+        dealer.cards[0].cd = UIImage(named: "secertcard.jpg")
     }
     
     func catchCard(cardm: Int) ->Card? {
