@@ -10,9 +10,9 @@ ipad:
 ![image](https://raw.githubusercontent.com/zhaoyue722/Black-Jack-UI-HW3/master/screenshots/Screen%20Shot%202015-04-02%20at%2011.26.19%20PM.png)
 ## Single Player Mode (Play with dealer):
 iphone:
-![image](https://raw.githubusercontent.com/zhaoyue722/Black-Jack-UI-HW3/master/screenshots/Screen%20Shot%202015-04-02%20at%2011.27.25%20PM.png)
+![image](https://raw.githubusercontent.com/zhaoyue722/Black-Jack-UI-HW3/master/screenshots/Screen%20Shot%202015-04-02%20at%2011.28.42%20PM.png)
 ipad:
-![image](https://github.com/zhaoyue722/Black-Jack-UI-HW3/raw/master/screenshots/Screen%20Shot%202015-04-02%20at%2011.27.25%20PM.png)
+![image](https://raw.githubusercontent.com/zhaoyue722/Black-Jack-UI-HW3/master/screenshots/Screen%20Shot%202015-04-02%20at%2011.27.25%20PM.png)
 ## Play with AI (Play with Jack):
 iphone:
 ![image](https://raw.githubusercontent.com/zhaoyue722/Black-Jack-UI-HW3/master/screenshots/Screen%20Shot%202015-04-02%20at%2011.29.19%20PM.png)
