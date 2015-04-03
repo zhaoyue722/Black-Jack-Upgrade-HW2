@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
@@ -13,95 +13,324 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Amount of Cards：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ATX-03-Rqh">
-                                <rect key="frame" x="230" y="189" width="179" height="34"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Amount of Cards：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ATX-03-Rqh">
+                                <rect key="frame" x="231" y="189" width="179" height="34"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="21"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=regular" misplaced="YES">
+                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="24"/>
+                                    <rect key="frame" x="336" y="260" width="248" height="52"/>
+                                </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fhv-1g-Eql">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fhv-1g-Eql">
                                 <rect key="frame" x="543" y="189" width="30" height="30"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="23"/>
                                 <state key="normal" title="3">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=regular" misplaced="YES">
+                                    <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="38"/>
+                                    <rect key="frame" x="747" y="260" width="37" height="52"/>
+                                </variation>
                                 <connections>
                                     <action selector="threeDeck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ctG-SD-j5o"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RTg-sU-eHE">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RTg-sU-eHE">
                                 <rect key="frame" x="482" y="189" width="30" height="30"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="23"/>
                                 <state key="normal" title="2">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=regular" misplaced="YES">
+                                    <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="38"/>
+                                    <rect key="frame" x="688" y="260" width="33" height="52"/>
+                                </variation>
                                 <connections>
                                     <action selector="twoDeck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FW3-OF-g9F"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3KR-HI-NtY">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3KR-HI-NtY">
                                 <rect key="frame" x="214" y="224" width="173" height="87"/>
                                 <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="19"/>
                                 <state key="normal" title="play with dealer">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=regular" misplaced="YES">
+                                    <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="27"/>
+                                    <rect key="frame" x="319" y="430" width="254" height="84"/>
+                                </variation>
                                 <connections>
                                     <action selector="slgPlayer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fML-l5-q1F"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iFy-Pu-ov8">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iFy-Pu-ov8">
                                 <rect key="frame" x="421" y="249" width="183" height="37"/>
                                 <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="19"/>
                                 <state key="normal" title="play with Jack">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=regular" misplaced="YES">
+                                    <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="27"/>
+                                    <rect key="frame" x="661" y="430" width="225" height="84"/>
+                                </variation>
                                 <connections>
                                     <action selector="mulPlayer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nSs-WF-Mnz"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BLACK JACK" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NPk-RL-E4x">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="BLACK JACK" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NPk-RL-E4x">
                                 <rect key="frame" x="166" y="51" width="323" height="77"/>
                                 <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="50"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=regular" misplaced="YES">
+                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="82"/>
+                                    <rect key="frame" x="195" y="50" width="546.5" height="91.5"/>
+                                </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="20f-Ul-rFR">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="20f-Ul-rFR">
                                 <rect key="frame" x="417" y="189" width="30" height="30"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="23"/>
                                 <state key="normal" title="1">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=regular" misplaced="YES">
+                                    <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="38"/>
+                                    <rect key="frame" x="618" y="260" width="44" height="52"/>
+                                </variation>
                                 <connections>
                                     <action selector="oneDeck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MzV-ag-BOz"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="player1" translatesAutoresizingMaskIntoConstraints="NO" id="zIo-bb-ypD">
-                                <rect key="frame" x="0.0" y="133" width="177" height="218"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="player1" translatesAutoresizingMaskIntoConstraints="NO" id="zIo-bb-ypD">
+                                <rect key="frame" x="1" y="133" width="177" height="218"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="536" id="JnI-xX-jPB"/>
+                                    <constraint firstAttribute="height" constant="218" id="SwQ-dl-2r7"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="354" id="Yf2-q1-eeC"/>
+                                    <constraint firstAttribute="height" constant="218" id="cXc-s1-ROI"/>
+                                    <constraint firstAttribute="width" constant="177" id="nEQ-ee-e55"/>
+                                    <constraint firstAttribute="width" constant="177" id="txc-h8-6dE"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="JnI-xX-jPB"/>
+                                        <exclude reference="SwQ-dl-2r7"/>
+                                        <exclude reference="Yf2-q1-eeC"/>
+                                        <exclude reference="txc-h8-6dE"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="296" width="177" height="218"/>
+                                    <mask key="constraints">
+                                        <exclude reference="JnI-xX-jPB"/>
+                                        <exclude reference="SwQ-dl-2r7"/>
+                                        <exclude reference="Yf2-q1-eeC"/>
+                                        <exclude reference="cXc-s1-ROI"/>
+                                        <exclude reference="nEQ-ee-e55"/>
+                                        <exclude reference="txc-h8-6dE"/>
+                                    </mask>
+                                </variation>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="👦" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RZg-aI-fQG">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="👨" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wtd-gg-A9e">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.093105751045707855" green="0.38441179803333336" blue="0.24964128582266154" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ATX-03-Rqh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="230" id="1xz-rc-vlm"/>
+                            <constraint firstItem="20f-Ul-rFR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="618" id="219-4P-btt"/>
+                            <constraint firstItem="zIo-bb-ypD" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="133" id="3OY-dJ-Kwm"/>
+                            <constraint firstAttribute="centerX" secondItem="NPk-RL-E4x" secondAttribute="centerX" id="4BS-o5-HrK"/>
+                            <constraint firstItem="wtd-gg-A9e" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="240" id="5eR-bO-tdP">
+                                <variation key="widthClass=regular" constant="895"/>
+                            </constraint>
+                            <constraint firstItem="ATX-03-Rqh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="260" id="8Zu-bc-rcW">
+                                <variation key="widthClass=regular" constant="265"/>
+                            </constraint>
+                            <constraint firstItem="NPk-RL-E4x" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="50" id="8iV-tp-rOQ"/>
+                            <constraint firstItem="ATX-03-Rqh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="336" id="BKD-fz-McU"/>
+                            <constraint firstItem="NPk-RL-E4x" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="166" id="CPA-4E-vTe"/>
+                            <constraint firstItem="zIo-bb-ypD" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="296" id="DlH-8L-Qh2"/>
+                            <constraint firstItem="3KR-HI-NtY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="430" id="Fri-fx-5CH"/>
+                            <constraint firstItem="fhv-1g-Eql" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="267" id="G0i-uO-iz4">
+                                <variation key="widthClass=regular" constant="260"/>
+                            </constraint>
+                            <constraint firstItem="fhv-1g-Eql" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="189" id="HWq-du-oWo"/>
+                            <constraint firstItem="3KR-HI-NtY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="430" id="HkB-LT-Bcl"/>
+                            <constraint firstItem="fhv-1g-Eql" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="543" id="LFB-2g-cth"/>
+                            <constraint firstItem="fhv-1g-Eql" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="585" id="LO7-8f-KU9"/>
+                            <constraint firstItem="3KR-HI-NtY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="230" id="LPg-Ny-WHh"/>
+                            <constraint firstItem="RTg-sU-eHE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="509" id="LUg-Hp-v8I"/>
+                            <constraint firstItem="iFy-Pu-ov8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="510" id="OyB-4F-Hrh"/>
+                            <constraint firstItem="20f-Ul-rFR" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="260" id="PTD-0W-9ks"/>
+                            <constraint firstItem="iFy-Pu-ov8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="603" id="QdG-2v-9XK"/>
+                            <constraint firstItem="RZg-aI-fQG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="573" id="QeO-Uz-Pnw"/>
+                            <constraint firstItem="RTg-sU-eHE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="189" id="RTP-yV-4c2"/>
+                            <constraint firstItem="3KR-HI-NtY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="214" id="T1K-b7-bLX"/>
+                            <constraint firstItem="iFy-Pu-ov8" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="430" id="TZl-iZ-OXq"/>
+                            <constraint firstItem="3KR-HI-NtY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="319" id="XBL-3d-I3S"/>
+                            <constraint firstItem="RTg-sU-eHE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="688" id="XQ9-IA-kOf"/>
+                            <constraint firstItem="iFy-Pu-ov8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="661" id="ZkG-RQ-ogj"/>
+                            <constraint firstItem="iFy-Pu-ov8" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="249" id="aJz-MW-R69"/>
+                            <constraint firstItem="iFy-Pu-ov8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="421" id="dbJ-H8-1EC"/>
+                            <constraint firstItem="20f-Ul-rFR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="440" id="e9J-Cl-GxF"/>
+                            <constraint firstItem="fhv-1g-Eql" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="747" id="eWh-xS-wPg"/>
+                            <constraint firstItem="ATX-03-Rqh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="249" id="fbd-jZ-FWd"/>
+                            <constraint firstItem="3KR-HI-NtY" firstAttribute="top" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="430" id="ghk-vu-9yS"/>
+                            <constraint firstItem="ATX-03-Rqh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="203" id="glk-51-xnl"/>
+                            <constraint firstItem="20f-Ul-rFR" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="189" id="hdy-7f-ACl"/>
+                            <constraint firstItem="20f-Ul-rFR" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="260" id="iR9-tX-he1"/>
+                            <constraint firstItem="3KR-HI-NtY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="249" id="iSf-Av-Tza"/>
+                            <constraint firstItem="RZg-aI-fQG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="430" id="iey-4M-aTa"/>
+                            <constraint firstItem="NPk-RL-E4x" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="51" id="leZ-Vi-RMo"/>
+                            <constraint firstItem="20f-Ul-rFR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="417" id="n4C-vA-iyI"/>
+                            <constraint firstItem="RTg-sU-eHE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="482" id="pjk-7E-LGO"/>
+                            <constraint firstItem="fhv-1g-Eql" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="260" id="qcx-er-eqY"/>
+                            <constraint firstItem="ATX-03-Rqh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="189" id="sDB-J2-1Gb"/>
+                            <constraint firstItem="wtd-gg-A9e" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="430" id="uEB-nR-eg7"/>
+                            <constraint firstItem="RTg-sU-eHE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="260" id="uzE-j3-Eie"/>
+                            <constraint firstItem="NPk-RL-E4x" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="195" id="vL6-vl-5gS"/>
+                            <constraint firstItem="iFy-Pu-ov8" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="430" id="xKU-kl-gUr"/>
+                            <constraint firstItem="iFy-Pu-ov8" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="430" id="ysW-rp-khK"/>
+                            <constraint firstItem="RTg-sU-eHE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="260" id="yyb-Q3-qTW"/>
+                            <constraint firstAttribute="centerX" secondItem="NPk-RL-E4x" secondAttribute="centerX" id="z3B-ax-Om3"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="RZg-aI-fQG"/>
+                                <exclude reference="wtd-gg-A9e"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="QeO-Uz-Pnw"/>
+                                <exclude reference="iey-4M-aTa"/>
+                                <exclude reference="5eR-bO-tdP"/>
+                                <exclude reference="uEB-nR-eg7"/>
+                                <exclude reference="DlH-8L-Qh2"/>
+                                <exclude reference="4BS-o5-HrK"/>
+                                <exclude reference="8iV-tp-rOQ"/>
+                                <exclude reference="vL6-vl-5gS"/>
+                                <exclude reference="z3B-ax-Om3"/>
+                                <exclude reference="8Zu-bc-rcW"/>
+                                <exclude reference="BKD-fz-McU"/>
+                                <exclude reference="fbd-jZ-FWd"/>
+                                <exclude reference="glk-51-xnl"/>
+                                <exclude reference="Fri-fx-5CH"/>
+                                <exclude reference="HkB-LT-Bcl"/>
+                                <exclude reference="LPg-Ny-WHh"/>
+                                <exclude reference="XBL-3d-I3S"/>
+                                <exclude reference="ghk-vu-9yS"/>
+                                <exclude reference="219-4P-btt"/>
+                                <exclude reference="PTD-0W-9ks"/>
+                                <exclude reference="e9J-Cl-GxF"/>
+                                <exclude reference="iR9-tX-he1"/>
+                                <exclude reference="OyB-4F-Hrh"/>
+                                <exclude reference="QdG-2v-9XK"/>
+                                <exclude reference="TZl-iZ-OXq"/>
+                                <exclude reference="ZkG-RQ-ogj"/>
+                                <exclude reference="xKU-kl-gUr"/>
+                                <exclude reference="ysW-rp-khK"/>
+                                <exclude reference="LUg-Hp-v8I"/>
+                                <exclude reference="XQ9-IA-kOf"/>
+                                <exclude reference="uzE-j3-Eie"/>
+                                <exclude reference="yyb-Q3-qTW"/>
+                                <exclude reference="G0i-uO-iz4"/>
+                                <exclude reference="LO7-8f-KU9"/>
+                                <exclude reference="eWh-xS-wPg"/>
+                                <exclude reference="qcx-er-eqY"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="RZg-aI-fQG"/>
+                                <include reference="wtd-gg-A9e"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="QeO-Uz-Pnw"/>
+                                <include reference="iey-4M-aTa"/>
+                                <include reference="5eR-bO-tdP"/>
+                                <include reference="uEB-nR-eg7"/>
+                                <exclude reference="3OY-dJ-Kwm"/>
+                                <include reference="DlH-8L-Qh2"/>
+                                <include reference="4BS-o5-HrK"/>
+                                <include reference="8iV-tp-rOQ"/>
+                                <exclude reference="CPA-4E-vTe"/>
+                                <exclude reference="leZ-Vi-RMo"/>
+                                <include reference="vL6-vl-5gS"/>
+                                <exclude reference="z3B-ax-Om3"/>
+                                <exclude reference="1xz-rc-vlm"/>
+                                <include reference="8Zu-bc-rcW"/>
+                                <include reference="BKD-fz-McU"/>
+                                <exclude reference="fbd-jZ-FWd"/>
+                                <exclude reference="glk-51-xnl"/>
+                                <exclude reference="sDB-J2-1Gb"/>
+                                <exclude reference="Fri-fx-5CH"/>
+                                <include reference="HkB-LT-Bcl"/>
+                                <exclude reference="LPg-Ny-WHh"/>
+                                <exclude reference="T1K-b7-bLX"/>
+                                <include reference="XBL-3d-I3S"/>
+                                <exclude reference="ghk-vu-9yS"/>
+                                <exclude reference="iSf-Av-Tza"/>
+                                <include reference="219-4P-btt"/>
+                                <include reference="PTD-0W-9ks"/>
+                                <exclude reference="e9J-Cl-GxF"/>
+                                <exclude reference="hdy-7f-ACl"/>
+                                <exclude reference="iR9-tX-he1"/>
+                                <exclude reference="n4C-vA-iyI"/>
+                                <exclude reference="OyB-4F-Hrh"/>
+                                <exclude reference="QdG-2v-9XK"/>
+                                <exclude reference="TZl-iZ-OXq"/>
+                                <include reference="ZkG-RQ-ogj"/>
+                                <exclude reference="aJz-MW-R69"/>
+                                <exclude reference="dbJ-H8-1EC"/>
+                                <exclude reference="xKU-kl-gUr"/>
+                                <include reference="ysW-rp-khK"/>
+                                <exclude reference="LUg-Hp-v8I"/>
+                                <exclude reference="RTP-yV-4c2"/>
+                                <include reference="XQ9-IA-kOf"/>
+                                <exclude reference="pjk-7E-LGO"/>
+                                <exclude reference="uzE-j3-Eie"/>
+                                <include reference="yyb-Q3-qTW"/>
+                                <exclude reference="G0i-uO-iz4"/>
+                                <exclude reference="HWq-du-oWo"/>
+                                <exclude reference="LFB-2g-cth"/>
+                                <exclude reference="LO7-8f-KU9"/>
+                                <include reference="eWh-xS-wPg"/>
+                                <include reference="qcx-er-eqY"/>
+                            </mask>
+                        </variation>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
                         <outlet property="oneDeck" destination="20f-Ul-rFR" id="AJL-b2-iy9"/>
                         <outlet property="threeDeck" destination="fhv-1g-Eql" id="RLZ-Up-kxb"/>
                         <outlet property="twoDeck" destination="RTg-sU-eHE" id="aZE-xp-SEH"/>
-                        <segue destination="nby-cA-q9e" kind="modal" identifier="toMultiple" id="H3S-zE-02k"/>
-                        <segue destination="3sU-Ns-rLY" kind="modal" identifier="toSingle" id="xGt-hv-nge"/>
+                        <segue destination="nby-cA-q9e" kind="presentation" identifier="toMultiple" id="H3S-zE-02k"/>
+                        <segue destination="3sU-Ns-rLY" kind="presentation" identifier="toSingle" id="xGt-hv-nge"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="196" y="298"/>
+            <point key="canvasLocation" x="528" y="239"/>
         </scene>
         <!--View Controller Single Player-->
         <scene sceneID="aub-CF-bNs">
@@ -112,14 +341,18 @@
                         <viewControllerLayoutGuide type="bottom" id="xDk-zU-SwV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="rVC-NN-Z5Z">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Single Player" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zM7-At-7ck">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="play with dealer" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zM7-At-7ck">
                                 <rect key="frame" x="56" y="64" width="118" height="32"/>
                                 <fontDescription key="fontDescription" name="LaoSangamMN" family="Lao Sangam MN" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="LaoSangamMN" family="Lao Sangam MN" pointSize="25"/>
+                                    <rect key="frame" x="49" y="109" width="225" height="51"/>
+                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BLACK JACK" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qpI-XI-t0G">
                                 <rect key="frame" x="51" y="21" width="296" height="59"/>
@@ -127,78 +360,30 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="52"/>
+                                    <rect key="frame" x="49" y="21" width="329" height="88"/>
+                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="💰blance: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbO-CL-LJV">
                                 <rect key="frame" x="378" y="214" width="92" height="34"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="19"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="23"/>
+                                    <rect key="frame" x="619" y="392" width="92" height="34"/>
+                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O2D-yb-sVc">
                                 <rect key="frame" x="476" y="220" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wRh-W0-hza">
-                                <rect key="frame" x="61" y="109" width="10" height="21"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NRL-6Y-Wih">
-                                <rect key="frame" x="60" y="139" width="10" height="21"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3MV-57-f7E">
-                                <rect key="frame" x="60" y="169" width="20" height="26"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AIp-7w-a3q">
-                                <rect key="frame" x="56" y="203" width="20" height="28"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0te-Tv-cOr">
-                                <rect key="frame" x="57" y="245" width="14" height="21"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aXw-oh-AZH">
-                                <rect key="frame" x="248" y="108" width="10" height="21"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eyh-L8-fFT">
-                                <rect key="frame" x="248" y="138" width="10" height="21"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k5M-om-Uhr">
-                                <rect key="frame" x="248" y="170" width="19" height="21"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L4K-OI-Ke1">
-                                <rect key="frame" x="248" y="205" width="19" height="21"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y6f-B5-ED2">
-                                <rect key="frame" x="248" y="244" width="19" height="21"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="22"/>
+                                    <rect key="frame" x="734" y="398" width="42" height="21"/>
+                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AMd-Re-MHG">
                                 <rect key="frame" x="314" y="36" width="81" height="30"/>
@@ -207,6 +392,10 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="22"/>
+                                    <rect key="frame" x="391" y="53" width="129" height="45"/>
+                                </variation>
                                 <connections>
                                     <action selector="standButton:" destination="3sU-Ns-rLY" eventType="touchUpInside" id="1RI-Hj-W3K"/>
                                 </connections>
@@ -218,6 +407,10 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="22"/>
+                                    <rect key="frame" x="533" y="55" width="105" height="43"/>
+                                </variation>
                                 <connections>
                                     <action selector="hitButton:" destination="3sU-Ns-rLY" eventType="touchUpInside" id="RTT-ba-F6w"/>
                                 </connections>
@@ -229,6 +422,10 @@
                                     <color key="titleColor" red="0.1266713377" green="1" blue="0.1476889223" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="20"/>
+                                    <rect key="frame" x="608" y="542" width="110" height="33"/>
+                                </variation>
                                 <connections>
                                     <action selector="retry:" destination="3sU-Ns-rLY" eventType="touchUpInside" id="sUL-xe-Tar"/>
                                 </connections>
@@ -238,11 +435,18 @@
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="18"/>
                                 <color key="textColor" red="0.89561596750000005" green="0.90818189540000005" blue="0.1929215222" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="23"/>
+                                    <rect key="frame" x="9" y="550" width="243" height="30"/>
+                                </variation>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="A0k-Ef-4KL">
                                 <rect key="frame" x="397" y="123" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="633" y="292" width="97" height="30"/>
+                                </variation>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MBd-pR-QTX">
                                 <rect key="frame" x="499" y="282" width="53" height="30"/>
@@ -251,15 +455,23 @@
                                     <color key="titleColor" red="0.1266713377" green="1" blue="0.1476889223" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="20"/>
+                                    <rect key="frame" x="734" y="542" width="94" height="33"/>
+                                </variation>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="modal" id="MIi-n2-7XL"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="MIi-n2-7XL"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n7K-hf-hQW">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n7K-hf-hQW">
                                 <rect key="frame" x="228" y="282" width="175" height="21"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="18"/>
                                 <color key="textColor" red="0.89561596750000005" green="0.90818189540000005" blue="0.1929215222" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="23"/>
+                                    <rect key="frame" x="325" y="550" width="239" height="30"/>
+                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ySu-AU-ybI">
                                 <rect key="frame" x="421" y="167" width="49" height="30"/>
@@ -268,42 +480,79 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="22"/>
+                                    <rect key="frame" x="641" y="345" width="49" height="30"/>
+                                </variation>
                                 <connections>
                                     <action selector="Bet:" destination="3sU-Ns-rLY" eventType="touchUpInside" id="H7F-A0-DlC"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="poker" translatesAutoresizingMaskIntoConstraints="NO" id="TvX-zH-0e6">
-                                <rect key="frame" x="500" y="9" width="110" height="99"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9pH-XV-biS">
-                                <rect key="frame" x="292" y="99" width="27" height="37.5"/>
+                                <rect key="frame" x="286" y="98" width="28" height="45"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="357" y="218" width="62" height="87"/>
+                                </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nyt-Y6-VWG">
-                                <rect key="frame" x="292" y="129" width="27" height="37.5"/>
+                                <rect key="frame" x="329" y="130" width="28" height="45"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="432" y="271" width="62" height="87"/>
+                                </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5uK-1x-iTs">
-                                <rect key="frame" x="292" y="155" width="27" height="41.5"/>
+                                <rect key="frame" x="286" y="169" width="28" height="45"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="357" y="325" width="62" height="87"/>
+                                </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5OJ-k7-9Zt">
-                                <rect key="frame" x="292" y="193" width="27" height="37.5"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5xZ-kw-E1Y">
-                                <rect key="frame" x="292" y="235" width="27" height="37.5"/>
+                                <rect key="frame" x="329" y="208" width="28" height="45"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="432" y="386" width="62" height="87"/>
+                                </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uyk-0Z-Qvd">
-                                <rect key="frame" x="97" y="98" width="25" height="38.5"/>
+                                <rect key="frame" x="97" y="98" width="28.5" height="45"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="95" y="218" width="62" height="87"/>
+                                </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ruL-YF-xPm">
-                                <rect key="frame" x="97" y="128" width="25" height="38.5"/>
+                                <rect key="frame" x="139" y="130" width="28" height="45"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="168" y="271" width="62" height="87"/>
+                                </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="paZ-3p-urJ">
-                                <rect key="frame" x="97" y="158" width="25" height="38.5"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YiO-Yt-ULd">
-                                <rect key="frame" x="97" y="187" width="25" height="38.5"/>
+                                <rect key="frame" x="97" y="169" width="28" height="45"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="95" y="325" width="62" height="87"/>
+                                </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lii-Fn-TjB">
-                                <rect key="frame" x="97" y="233" width="25" height="38.5"/>
+                                <rect key="frame" x="97" y="236" width="28" height="45"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="95" y="433" width="62" height="87"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YiO-Yt-ULd">
+                                <rect key="frame" x="139" y="208" width="28" height="45"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="168" y="386" width="62" height="87"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5xZ-kw-E1Y">
+                                <rect key="frame" x="286" y="236" width="28" height="45"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="357" y="433" width="62" height="87"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="poker" translatesAutoresizingMaskIntoConstraints="NO" id="TvX-zH-0e6">
+                                <rect key="frame" x="500" y="9" width="110" height="99"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="727" y="20" width="190" height="174"/>
+                                </variation>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.093105751050000005" green="0.38441179800000003" blue="0.2496412858" alpha="1" colorSpace="calibratedRGB"/>
@@ -332,7 +581,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z2Q-xo-YDn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-67" y="705"/>
+            <point key="canvasLocation" x="-108" y="770"/>
         </scene>
         <!--View Controller Multiple Players-->
         <scene sceneID="nPh-Wu-Ibi">
@@ -343,42 +592,33 @@
                         <viewControllerLayoutGuide type="bottom" id="tYW-oE-Chn"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="3Q5-1p-fA1">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Multiple Players" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LsD-HU-xeS">
-                                <rect key="frame" x="254" y="39" width="127" height="27"/>
-                                <fontDescription key="fontDescription" name="LaoSangamMN" family="Lao Sangam MN" pointSize="18"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kdw-IF-MjO">
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You👦" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOL-vs-zCx">
-                                <rect key="frame" x="182" y="80" width="67" height="27.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You👦：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOL-vs-zCx">
+                                <rect key="frame" x="182" y="80" width="73" height="27.5"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="17"/>
                                 <color key="textColor" red="0.727905767533229" green="0.83840215773809523" blue="0.38247943981221932" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="21"/>
+                                    <rect key="frame" x="34" y="282" width="82" height="27.5"/>
+                                </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ab-Gf-uxZ">
-                                <rect key="frame" x="532" y="115" width="36" height="30"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
-                                <state key="normal" title="hit">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="player1Hit:" destination="nby-cA-q9e" eventType="touchUpInside" id="xMJ-Ji-bqK"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jack👮" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RSW-Ne-tXx">
-                                <rect key="frame" x="180" y="211" width="75" height="28"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jack👮：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RSW-Ne-tXx">
+                                <rect key="frame" x="180" y="211" width="80" height="28"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="17"/>
                                 <color key="textColor" red="0.72790576750000002" green="0.83840215770000004" blue="0.38247943979999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="21"/>
+                                    <rect key="frame" x="34" y="467" width="97" height="30.5"/>
+                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BZQ-8k-wLp">
                                 <rect key="frame" x="524" y="298" width="53" height="30"/>
@@ -387,8 +627,12 @@
                                     <color key="titleColor" red="0.1266713377" green="1" blue="0.1476889223" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                    <rect key="frame" x="594" y="588" width="53" height="30"/>
+                                </variation>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="modal" id="aWK-MU-I8l"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="aWK-MU-I8l"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BKa-0i-kow">
@@ -396,18 +640,30 @@
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
                                 <color key="textColor" red="0.89561596750000005" green="0.90818189540000005" blue="0.1929215222" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="21"/>
+                                    <rect key="frame" x="34" y="241" width="292" height="30"/>
+                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="💰blance: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O5C-oH-NVo">
                                 <rect key="frame" x="263" y="85" width="83" height="21"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="21"/>
+                                    <rect key="frame" x="134" y="282" width="83" height="27.5"/>
+                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Icb-bu-Aah">
                                 <rect key="frame" x="349" y="85" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="21"/>
+                                    <rect key="frame" x="239" y="282" width="70" height="27.5"/>
+                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GGQ-28-mLm">
                                 <rect key="frame" x="487" y="76" width="30" height="30"/>
@@ -416,6 +672,10 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="22"/>
+                                    <rect key="frame" x="586" y="282" width="53" height="31"/>
+                                </variation>
                                 <connections>
                                     <action selector="player1Bet:" destination="nby-cA-q9e" eventType="touchUpInside" id="4th-Wb-I4k"/>
                                 </connections>
@@ -425,17 +685,28 @@
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="21"/>
+                                    <rect key="frame" x="139" y="471" width="83" height="21"/>
+                                </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zWc-Wx-cf9">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zWc-Wx-cf9">
                                 <rect key="frame" x="349" y="216" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="21"/>
+                                    <rect key="frame" x="239" y="472" width="77" height="21"/>
+                                </variation>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="10" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xce-68-i2K">
                                 <rect key="frame" x="412" y="208" width="57" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="498" y="467" width="57" height="30"/>
+                                </variation>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Xu-3h-dLN">
                                 <rect key="frame" x="434" y="298" width="61" height="30"/>
@@ -444,6 +715,10 @@
                                     <color key="titleColor" red="0.1266713377" green="1" blue="0.1476889223" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                    <rect key="frame" x="464" y="588" width="76" height="30"/>
+                                </variation>
                                 <connections>
                                     <action selector="retry:" destination="nby-cA-q9e" eventType="touchUpInside" id="g6e-X3-miv"/>
                                 </connections>
@@ -453,12 +728,20 @@
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
                                 <color key="textColor" red="0.89561596750000005" green="0.90818189540000005" blue="0.1929215222" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="22"/>
+                                    <rect key="frame" x="34" y="423" width="292" height="30"/>
+                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wBQ-L4-YXT">
                                 <rect key="frame" x="177" y="305" width="237" height="21"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
                                 <color key="textColor" red="0.89561596750000005" green="0.90818189540000005" blue="0.1929215222" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="21"/>
+                                    <rect key="frame" x="34" y="598" width="292" height="29"/>
+                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BLACK JACK" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xEJ-wa-PKo">
                                 <rect key="frame" x="33" y="23" width="296" height="59"/>
@@ -466,89 +749,185 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="50"/>
+                                    <rect key="frame" x="22" y="25" width="329" height="59"/>
+                                </variation>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fPb-nj-cLj">
                                 <rect key="frame" x="412" y="78" width="57" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="498" y="282" width="57" height="30"/>
+                                </variation>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dealder:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="krf-xR-u0V">
                                 <rect key="frame" x="39" y="75" width="73" height="21"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="17"/>
                                 <color key="textColor" red="0.72790576750000002" green="0.83840215770000004" blue="0.38247943979999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="21"/>
+                                    <rect key="frame" x="34" y="92" width="82" height="33"/>
+                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Out!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GEY-FD-tLO">
                                 <rect key="frame" x="474" y="164" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="OriyaSangamMN-Bold" family="Oriya Sangam MN" pointSize="17"/>
                                 <color key="textColor" red="0.97390013966480449" green="0.20290520734547091" blue="0.15911710193604856" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="OriyaSangamMN-Bold" family="Oriya Sangam MN" pointSize="20"/>
+                                    <rect key="frame" x="493" y="423" width="53" height="24"/>
+                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Out!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rDh-Pr-pOK">
                                 <rect key="frame" x="474" y="279" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="OriyaSangamMN-Bold" family="Oriya Sangam MN" pointSize="17"/>
                                 <color key="textColor" red="0.9739001397" green="0.2029052073" blue="0.1591171019" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="OriyaSangamMN-Bold" family="Oriya Sangam MN" pointSize="21"/>
+                                    <rect key="frame" x="493" y="530" width="53" height="21"/>
+                                </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="poker" translatesAutoresizingMaskIntoConstraints="NO" id="BhX-0f-r4g">
                                 <rect key="frame" x="524" y="0.0" width="110" height="99"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="691" y="28" width="186" height="174"/>
+                                </variation>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZZd-gb-oqz">
-                                <rect key="frame" x="479" y="114" width="46" height="30"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
-                                <state key="normal" title="stand">
+                                <rect key="frame" x="416" y="114" width="96" height="37.5"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="16"/>
+                                <state key="normal" title="🚧 STAND">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="26"/>
+                                    <rect key="frame" x="387" y="328" width="153" height="75"/>
+                                </variation>
                                 <connections>
                                     <action selector="player1Stand:" destination="nby-cA-q9e" eventType="touchUpInside" id="ojW-1u-eYO"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KNu-Ab-jgA">
                                 <rect key="frame" x="175" y="114" width="34" height="57"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="34" y="328" width="62" height="87"/>
+                                </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l1T-pv-n0t">
                                 <rect key="frame" x="196" y="113" width="40" height="58"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="75" y="328" width="62" height="87"/>
+                                </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZYD-U1-tfj">
                                 <rect key="frame" x="224" y="113" width="36" height="58"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="113" y="328" width="62" height="87"/>
+                                </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1c7-Wn-1lF">
                                 <rect key="frame" x="247" y="113" width="39" height="59"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="155" y="328" width="62" height="87"/>
+                                </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IVV-QB-7V4">
                                 <rect key="frame" x="274" y="112" width="36" height="60"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="194" y="328" width="62" height="87"/>
+                                </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HNR-W0-fuU">
                                 <rect key="frame" x="39" y="171" width="37" height="44"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="113" y="142" width="62" height="87"/>
+                                </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VEH-Zp-6nr">
                                 <rect key="frame" x="39" y="193" width="37" height="44"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="155" y="142" width="62" height="87"/>
+                                </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hFd-Ir-atK">
                                 <rect key="frame" x="175" y="246" width="34" height="54"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="34" y="505" width="62" height="87"/>
+                                </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eo3-P8-1Vs">
                                 <rect key="frame" x="196" y="246" width="40" height="54"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="75" y="505" width="62" height="87"/>
+                                </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cR3-aR-vkx">
                                 <rect key="frame" x="223" y="246" width="37" height="54"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="113" y="505" width="62" height="87"/>
+                                </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Quy-zu-wTv">
                                 <rect key="frame" x="247" y="246" width="39" height="54"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="155" y="505" width="62" height="87"/>
+                                </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="udw-r5-CbT">
                                 <rect key="frame" x="39" y="113" width="37" height="58"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="34" y="142" width="62" height="87"/>
+                                </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i6j-JD-9ir">
                                 <rect key="frame" x="39" y="148" width="37" height="43"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="75" y="142" width="62" height="87"/>
+                                </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qg2-Vz-0xp">
                                 <rect key="frame" x="274" y="246" width="36" height="54"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="194" y="505" width="62" height="87"/>
+                                </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I8B-31-8PP">
                                 <rect key="frame" x="39" y="216" width="37" height="52"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="194" y="142" width="62" height="87"/>
+                                </variation>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Multiple Players" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LsD-HU-xeS">
+                                <rect key="frame" x="254" y="39" width="127" height="27"/>
+                                <fontDescription key="fontDescription" name="LaoSangamMN" family="Lao Sangam MN" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="LaoSangamMN" family="Lao Sangam MN" pointSize="27"/>
+                                    <rect key="frame" x="359" y="49" width="228" height="27"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ab-Gf-uxZ">
+                                <rect key="frame" x="532" y="114" width="59" height="39"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="16"/>
+                                <state key="normal" title="🚀 HIT">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="27"/>
+                                    <rect key="frame" x="565" y="339" width="133" height="52"/>
+                                </variation>
+                                <connections>
+                                    <action selector="player1Hit:" destination="nby-cA-q9e" eventType="touchUpInside" id="xMJ-Ji-bqK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.093105751050000005" green="0.38441179800000003" blue="0.2496412858" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -586,18 +965,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c4X-RX-azb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="600" y="696"/>
+            <point key="canvasLocation" x="1125" y="735"/>
         </scene>
     </scenes>
     <resources>
         <image name="player1" width="285" height="435"/>
         <image name="poker" width="1024" height="1024"/>
     </resources>
-    <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar"/>
-        <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
-    </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="aWK-MU-I8l"/>
     </inferredMetricsTieBreakers>
